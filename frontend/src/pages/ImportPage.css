@@ -1,0 +1,211 @@
+.import-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.import-page h1 {
+  margin: 0 0 24px;
+  color: #1a1a2e;
+}
+
+.upload-section,
+.pending-section,
+.history-section {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.upload-section h2,
+.pending-section h2,
+.history-section h2 {
+  margin: 0 0 20px;
+  color: #1a1a2e;
+}
+
+.upload-config {
+  margin-bottom: 20px;
+}
+
+.config-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.config-item {
+  flex: 1;
+  min-width: 150px;
+}
+
+.config-item label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.config-item input,
+.config-item select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.config-item.checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.config-item.checkbox input {
+  width: auto;
+}
+
+.upload-area {
+  border: 2px dashed #d1d5db;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.upload-area:hover {
+  border-color: #4ade80;
+  background: #f0fdf4;
+}
+
+.upload-area input[type="file"] {
+  display: none;
+}
+
+.upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.upload-label:hover {
+  color: #4ade80;
+}
+
+.pending-table {
+  overflow-x: auto;
+}
+
+.pending-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pending-table th,
+.pending-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.pending-table th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: #374151;
+}
+
+.pending-table select {
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.action-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.recurrent-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.btn-icon.approve {
+  background: #d1fae5;
+  color: #059669;
+}
+
+.btn-icon.approve:hover {
+  background: #a7f3d0;
+}
+
+.empty-message {
+  color: #9ca3af;
+  text-align: center;
+  padding: 24px;
+}
+
+.batches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.batch-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.batch-icon {
+  width: 48px;
+  height: 48px;
+  background: #e0e7ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f46e5;
+}
+
+.batch-info {
+  flex: 1;
+}
+
+.batch-info h4 {
+  margin: 0 0 4px;
+  color: #1a1a2e;
+}
+
+.batch-info p {
+  margin: 0 0 4px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.batch-date {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.batch-stats {
+  font-size: 14px;
+  color: #4ade80;
+  font-weight: 500;
+}
